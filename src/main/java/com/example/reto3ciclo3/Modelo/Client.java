@@ -9,7 +9,7 @@ import java.util.List;
 @Table(name= "client")
 
 public class Client {
-    @javax.persistence.Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idClient;
     private String email;
